@@ -5,37 +5,64 @@
       body {
         margin: 0px;
       }
+      h1 {
+        font-family: sans-serif;
+        margin: 10px;
+      }
       div {
         display: inline-block;
       }
-      .black-box {
-        background-color: black;
-        height: 100px ;
-        width: 100px;
-        margin-top: 50px;
-        margin-left: 50px;
+      .background-box {
+        background-color: #555555;
+        height: 130px ;
+        width: 600px;
+        margin-top: 10px;
+        margin-left: 10px;
       }
-      .bar {
-        height: 200px;
-        width: 350px;
+      .foreground-box {
+        background-color: #cccccc;
+        margin-left: 6px;
+        margin-top: 6px;
+        height: 118px;
       }
-      #blue {
-        background-color: blue;
+      .first-row {
+        width: 192px;
+        /* height: 118px; */
       }
-      #red {
-        background-color: red;
+      .second-row {
+        width: 142.5px;
+        vertical-align: top;
+      }
+      .second-a {
+        height: 100px;
+      }
+      .second-b {
+        height: 75px;
+      }
+      .third-row {
+        width: 291px;
+      }
+      .third-a {
+        height: 35px;
       }
     </style>
   </head>
   <body>
-    <div id="red" class="bar">
-      <div class="black-box"></div>
-      <div class="black-box"></div>
-    </div
-    ><div id="blue" class="bar">
-      <div class="black-box"></div>
-      <div class="black-box"></div>
-      </div>
+    <h1>AAAAAHHHHHHH</h1>
+    <div class="background-box">
+      <div class="foreground-box first-row"></div
+      ><div class="foreground-box first-row"></div
+      ><div class="foreground-box first-row"></div>
+    </div>
+    <div class="background-box">
+      <div class="foreground-box second-row second-a"></div
+      ><div class="foreground-box second-row second-b"></div
+      ><div class="foreground-box second-row second-a"></div
+      ><div class="foreground-box second-row second-b"></div>
+    </div>
+    <div class="background-box">
+      <div class="foreground-box third-row third-a"></div
+      ><div class="foreground-box third-row"></div>
     </div>
   </body>
 </html>
