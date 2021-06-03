@@ -3,19 +3,37 @@
   <head>
     <style>
       body {
-        margin: 25px;
+        margin: 0px;
       }
-      div {
+      .black-box {
         display: inline-block;
         background-color: black;
         height: 100px ;
         width: 100px;
-        margin: 25px;
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+      .bar {
+        height: 200px;
+        width: 350px;
+      }
+      #blue {
+        background-color: blue;
+      }
+      #red {
+        background-color: red;
       }
     </style>
   </head>
   <body>
-    <div></div>
-    <div></div>
+    <div id="red" class="bar">
+      <div class="black-box"></div>
+      <div class="black-box"></div>
+    </div>
+    <div id="blue" class="bar">
+      <div class="black-box"></div>
+      <div class="black-box"></div>
+      </div>
+    </div>
   </body>
 </html>
